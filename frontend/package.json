@@ -91,6 +91,8 @@
     "terser-webpack-plugin": "^5.3.6",
     "update-browserslist-db": "^1.0.10",
     "uri-js": "^4.4.1",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
     "watchpack": "^2.4.0",
     "webpack-merge": "^5.8.0",
     "webpack-sources": "^3.2.3",
@@ -98,13 +100,15 @@
     "wildcard": "^2.0.0"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.45",
+    "css-loader": "^6.7.3",
     "mini-css-extract-plugin": "^2.7.2",
     "vue-loader": "^17.0.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=development webpack --watch"
   },
   "repository": {
     "type": "git",
